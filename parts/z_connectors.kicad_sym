@@ -209,13 +209,37 @@
         (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
+      (pin power_in line (at 0 -22.86 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin power_in line (at 0 -22.86 90) (length 5.08) hide
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
       (pin passive line (at 0 -22.86 90) (length 5.08)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "A1" (effects (font (size 1.27 1.27))))
       )
+      (pin no_connect line (at -15.24 7.62 0) (length 5.08) hide
+        (name "SSRXn2" (effects (font (size 1.27 1.27))))
+        (number "A10" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -15.24 10.16 0) (length 5.08) hide
+        (name "SSRXp2" (effects (font (size 1.27 1.27))))
+        (number "A11" (effects (font (size 1.27 1.27))))
+      )
       (pin passive line (at 0 -22.86 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "A12" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -15.24 11.43 0) (length 5.08) hide
+        (name "SSTXp1" (effects (font (size 1.27 1.27))))
+        (number "A2" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -15.24 12.7 0) (length 5.08) hide
+        (name "SSTXn1" (effects (font (size 1.27 1.27))))
+        (number "A3" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 15.24 15.24 180) (length 5.08)
         (name "VBUS" (effects (font (size 1.27 1.27))))
@@ -245,9 +269,25 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "B1" (effects (font (size 1.27 1.27))))
       )
+      (pin no_connect line (at -15.24 6.35 0) (length 5.08) hide
+        (name "SSRXn1" (effects (font (size 1.27 1.27))))
+        (number "B10" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -15.24 8.89 0) (length 5.08) hide
+        (name "SSRXp1" (effects (font (size 1.27 1.27))))
+        (number "B11" (effects (font (size 1.27 1.27))))
+      )
       (pin passive line (at 0 -22.86 90) (length 5.08) hide
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "B12" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -15.24 15.24 0) (length 5.08) hide
+        (name "SSTXp2" (effects (font (size 1.27 1.27))))
+        (number "B2" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect line (at -15.24 13.97 0) (length 5.08) hide
+        (name "SSTXn2" (effects (font (size 1.27 1.27))))
+        (number "B3" (effects (font (size 1.27 1.27))))
       )
       (pin passive line (at 15.24 15.24 180) (length 5.08) hide
         (name "VBUS" (effects (font (size 1.27 1.27))))
