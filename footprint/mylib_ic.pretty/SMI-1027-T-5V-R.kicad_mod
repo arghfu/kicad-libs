@@ -1,0 +1,179 @@
+(footprint "SMI-1027-T-5V-R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "95d71141-1a9c-4ba0-936c-3255dd28e64e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMI-1027-T-5V-R"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c72a9573-7a8b-46bb-a34f-719c84df6337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SMI-1027-T-5V-R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9b51332-0910-47b8-82fb-07bc0b6a7235")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7061be6-c607-4afe-8b12-18830ad49427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "155d41b3-410a-4e01-8245-dcc97b147a56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.2 -1.3)
+		(end -5.2 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "09e13195-74e8-418f-82fb-69b79972a9fd")
+	)
+	(fp_line
+		(start -5.2 5)
+		(end -5.2 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c01b61f0-f1e6-40ff-8142-1befd7817a26")
+	)
+	(fp_line
+		(start -3 -5)
+		(end -5.2 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb24d718-af65-4402-8a94-4ebab73f453c")
+	)
+	(fp_line
+		(start -3 -5)
+		(end 5.2 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "748027fb-e8f7-4ea3-85a7-b9ad45ac5320")
+	)
+	(fp_line
+		(start 5.2 -5)
+		(end 5.2 -1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa7a4cc1-21e0-480b-855f-c48ba0d048c4")
+	)
+	(fp_line
+		(start 5.2 1.3)
+		(end 5.2 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "41e16886-05d5-493e-a8eb-846077773c0c")
+	)
+	(fp_line
+		(start 5.2 5)
+		(end -5.2 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e47a9739-adbf-415c-84d3-94bd40f01f3e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 5.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f28d44ab-458e-49f7-90aa-fbee39616b83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.175 0)
+		(size 2.65 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "06247bab-6adb-478d-bc5a-85fca5d23e2e")
+	)
+	(pad "2" smd roundrect
+		(at 4.175 0)
+		(size 2.65 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d0eb7797-00d2-4e68-892c-bce1676c8dbe")
+	)
+	(model "/home/arghfu/workspace/kicad-libs/3d_packages/SMI-1027-T-5V-R.step"
+		(offset
+			(xyz 0.2 -0.25 2.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
